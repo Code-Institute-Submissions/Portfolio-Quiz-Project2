@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=DM+Serif+Display&family=Merriweather&family=Source+Serif+Pro&display=swap');
+
+/* style in the body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+/* Apply style html, header, image etc */
+html {
+    font-size: 65%;
+}
+header{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/EU-Sweden_%28orthographic_projection%29.svg/1920px-EU-Sweden_%28orthographic_projection%29.svg.png) no-repeat center center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+/* page header */
+.page-header {
+    padding-left: 5rem;
+}
+
+.page-header h1{
+    font-size: 4rem;
+    color: rgb(124, 6, 6);
+}
+
+.page-header h4{
+    font-size: 2rem;
+    color: rgb(8, 18, 170);
+}
+
+/* main div */
+.main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(210, 90%, 92%);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+}
+.main-div h2{
+    font-size: 3.5rem;
+    color: blue;
+}
+
+/* style set inner div */
+.inner-div h3 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin: 1rem 0 1rem 0;
+}
+
+.inner-div p {
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    list-style-type: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+/* add style #submit .reset */
+#submit, 
+.btn {
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 300;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: rgb(53, 35, 216);
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.reset{
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-size: 300;
+    display: block;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background-color: rgb(53, 35, 216);
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(18, 10, 78);
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.reset:hover{
+    background-color: rgb(18, 10, 78);
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+/* add style #result */
+#result{
+    font-size: 4rem;
+    background-color: rgb(4, 105, 38);
+    color: azure;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
