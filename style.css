@@ -18,6 +18,7 @@ header{
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
+
 /* page header */
 .page-header {
     padding-left: 5rem;
@@ -72,7 +73,7 @@ input {
     padding: 1rem 3rem;
     outline: none;
     font-size: 2rem;
-    font-size: 300;
+    font-size: 30px;
     display: block;
     margin: auto;
     border: none;
@@ -89,7 +90,7 @@ input {
     padding: 1rem 3rem;
     outline: none;
     font-size: 2rem;
-    font-size: 300;
+    font-size: 30px;
     display: block;
     margin: auto;
     border: none;
@@ -104,16 +105,16 @@ input {
 
 #submit:hover {
     background-color: rgb(18, 10, 78);
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 1rem 3rem;
-    box-shadow: rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 5px #9b9797;
 }
 
 .reset:hover{
     background-color: rgb(18, 10, 78);
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 1rem 3rem;
-    box-shadow: rgba(0, 0, 0, 0.4);
+    box-shadow: 10px 10px 5px #868383;
 }
 
 /* add style #result */
@@ -122,8 +123,8 @@ input {
     background-color: rgb(4, 105, 38);
     color: azure;
     text-align: center;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #username{

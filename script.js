@@ -216,5 +216,5 @@ function result(){
         }
     }
     let name = document.getElementById('name1').value;
-    resultView.innerHTML = "Welldone " + name + ", you have total scored " + score + "/10" ;
+    resultView.innerHTML = "Welldone " + name + ", you have total scored " + score + "/10 " ;
 } 
