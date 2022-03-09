@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=DM+Serif+Display&family=Merriweather&family=Source+Serif+Pro&display=swap');
 
-/* style in the body */
 *{
     margin: 0;
     padding: 0;
@@ -9,17 +8,69 @@
     font-weight: 400;
 }
 
-/* Apply style html, header, image etc */
 html {
     font-size: 65%;
 }
+nav{
+    background-color: blue;
+    color: yellow;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+.top-nav{
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-div1 a{
+    float: left;
+    font-size: 2.5rem;
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav-div1 a:hover{
+    float: left;
+    font-size: 2.5rem;
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.nav-div2 a{
+    float: right;
+    font-size: 2.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav-div2 a:hover{
+    float: right;
+    font-size: 2.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: yellowgreen;
+    text-decoration: none;
+}
+
 header{
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/EU-Sweden_%28orthographic_projection%29.svg/1920px-EU-Sweden_%28orthographic_projection%29.svg.png) no-repeat center center;
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
 
-/* page header */
 .page-header {
     padding-left: 5rem;
 }
@@ -34,7 +85,6 @@ header{
     color: rgb(8, 18, 170);
 }
 
-/* main div */
 .main-div {
     width: 100vw;
     min-height: 100vh;
@@ -50,7 +100,6 @@ header{
     color: blue;
 }
 
-/* style set inner div */
 .inner-div h3 {
     font-size: 3.2rem;
     font-weight: 500;
@@ -67,13 +116,12 @@ input {
     cursor: pointer;
 }
 
-/* add style #submit .reset */
 #submit, 
 .btn {
     padding: 1rem 3rem;
     outline: none;
     font-size: 2rem;
-    font-size: 30px;
+    font-size: 300;
     display: block;
     margin: auto;
     border: none;
@@ -90,7 +138,7 @@ input {
     padding: 1rem 3rem;
     outline: none;
     font-size: 2rem;
-    font-size: 30px;
+    font-size: 300;
     display: block;
     margin: auto;
     border: none;
@@ -105,7 +153,7 @@ input {
 
 #submit:hover {
     background-color: rgb(18, 10, 78);
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem 3rem;
     box-shadow: 10px 10px 5px #9b9797;
 }
@@ -117,14 +165,14 @@ input {
     box-shadow: 10px 10px 5px #868383;
 }
 
-/* add style #result */
+
 #result{
     font-size: 4rem;
     background-color: rgb(4, 105, 38);
     color: azure;
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 #username{
@@ -137,4 +185,23 @@ input {
     width: 95%;
     background-color: rgb(245, 229, 6);
     margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+.fontIcon{
+    background-color: rgb(41, 41, 231);
+    width: 100%;
+    height: 7rem;
+    color: yellow;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    display: block;
+}
+
+.fontIcon a{
+    padding-right: 4rem;
+    padding-left: 4rem;
+    font-size: 3rem;
+    color: yellow;
 }
